@@ -29,6 +29,12 @@ airports.pbi = { name: "Palm Beach", coords: {lat: 26.6832, lng: -80.0956} };
 airports.mco = { name: "Orlando", coords: {lat: 28.42944, lng: -81.3088} };
 airports.phl = { name: "Philadelphia", coords: {lat: 39.8719, lng: -75.2411} };
 airports.eug = { name: "Eugene", coords: {lat: 44.1230, lng: -123.2186} };
+airports.rno = { name: "Reno-Tahoe", coords: {lat: 39.4991, lng: -119.7680} };
+airports.san = { name: "San Diego", coords: {lat: 32.7336, lng: -117.1897} };
+airports.ama = { name: "Amarillo", coords: {lat: 35.2194, lng: -101.7058} };
+airports.dal = { name: "Dallas Love", coords: {lat: 32.8472, lng: -96.8516} };
+airports.mke = { name: "Milwaukee", coords: {lat: 42.9472, lng: -87.8966} };
+airports.msn = { name: "Dane County", coords: {lat: 43.1397, lng: -89.3375} };
 
 // canada
 airports.yyz = { name: "Toronto", coords: {lat: 43.6766, lng: -79.6305} };
@@ -304,6 +310,12 @@ function initMap() {
                 ["den", "iah"],
                 ["den", "fll"],
                 ["den", "mco"],
+                ["den", "mke"],
+                ["msn", "den"],
+                ["den", "rno"],
+                ["den", "san"],
+                ["den", "ama"],
+                ["ama", "dal"],
                 ["den", "mia"],
                 ["den", "lax"],
                 ["den", "phx"],
