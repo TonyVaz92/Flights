@@ -14,13 +14,13 @@ airports.ist = { name: "Istanbul Ataturk", coords: {lat: 40.9761, lng: 28.8141} 
 
 // usa
 airports.den = { name: "Denver", coords: {lat: 39.8561, lng: -104.6737} };
-airports.okc = { name: "Oklahoma City", coords: {lat: 00.0000, lng: 00.0000} };
-airports.sea = { name: "Seattle-Tacoma", coords: {lat: 00.0000, lng: 00.0000} };
-airports.dfw = { name: "Dallas-Fort Worth", coords: {lat: 00.0000, lng: 00.0000} };
-airports.iah = { name: "Houston Intercontinental", coords: {lat: 00.0000, lng: 00.0000} };
+airports.okc = { name: "Oklahoma City", coords: {lat: 35.3930, lng: -97.6008} };
+airports.sea = { name: "Seattle-Tacoma", coords: {lat: 47.4488, lng: -122.3094} };
+airports.dfw = { name: "Dallas-Fort Worth", coords: {lat: 32.8969, lng: -97.0380} };
+airports.iah = { name: "Houston Intercontinental", coords: {lat: 29.9844, lng: -95.3413} };
 airports.lax = { name: "Los Angeles", coords: {lat: 33.9416, lng: -118.4085} };
-airports.phx = { name: "Phoenix", coords: {lat: 00.0000, lng: 00.0000} };
-airports.ord = { name: "Chicago O'Hare", coords: {lat: 00.0000, lng: 00.0000} };
+airports.phx = { name: "Phoenix", coords: {lat: 33.4341, lng: -112.0116} };
+airports.ord = { name: "Chicago O'Hare", coords: {lat: 41.9786, lng: -87.9047} };
 
 // canada
 airports.yyz = { name: "Toronto", coords: {lat: 43.6766, lng: -79.6305} };
