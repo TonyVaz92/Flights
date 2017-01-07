@@ -34,8 +34,8 @@ airports.san = { name: "San Diego", coords: {lat: 32.7336, lng: -117.1897} };
 airports.ama = { name: "Amarillo", coords: {lat: 35.2194, lng: -101.7058} };
 airports.dal = { name: "Dallas Love", coords: {lat: 32.8472, lng: -96.8516} };
 airports.mke = { name: "Milwaukee", coords: {lat: 42.9472, lng: -87.8966} };
-airports.msn = { name: "Dane County", coords: {lat: 43.1397, lng: -89.3375} };
-airports.mem = { name: "Memphis", coords: {lat: 35.0425, lng: -89.9766} };
+airports.msn = { name: "Madison", coords: {lat: 43.1397, lng: -89.3375} };
+airports.bna = { name: "Nashville", coords: {lat: 36.1266, lng: -86.6819} };
 airports.cle = { name: "Cleveland", coords: {lat: 41.4116, lng: -81.8497} };
 airports.las = { name: "Las Vegas", coords: {lat: 36.0800, lng: -115.1522} };
 
@@ -332,8 +332,8 @@ function initMap() {
                 ["ewr", "mxp"],
                 ["txl", "ewr"],
                 ["iah", "pbi"],
-                ["den", "mem"],
-                ["mem", "cle"],
+                ["den", "bna"],
+                ["bna", "cle"],
                 ["fll", "uio"],
                 ["iah", "gua"],
                 ["okc", "dfw"],
