@@ -21,6 +21,12 @@ airports.iah = { name: "Houston Intercontinental", coords: {lat: 29.9844, lng: -
 airports.lax = { name: "Los Angeles", coords: {lat: 33.9416, lng: -118.4085} };
 airports.phx = { name: "Phoenix", coords: {lat: 33.4341, lng: -112.0116} };
 airports.ord = { name: "Chicago O'Hare", coords: {lat: 41.9786, lng: -87.9047} };
+airports.ewr = { name: "Newark", coords: {lat: 40.6925, lng: -74.1686} };
+airports.hpn = { name: "Westchester County", coords: {lat: 41.0669, lng: -73.7075} };
+airports.mia = { name: "Miami", coords: {lat: 00.0000, lng: 00.0000} };
+airports.fll = { name: "Fort Lauderdale", coords: {lat: 00.0000, lng: 00.0000} };
+airports.pbi = { name: "Palm Beach", coords: {lat: 26.6832, lng: -80.0956} };
+airports.mco = { name: "Orlando", coords: {lat: 28.42944, lng: -81.3088} };
 
 // canada
 airports.yyz = { name: "Toronto", coords: {lat: 43.6766, lng: -79.6305} };
@@ -293,6 +299,18 @@ function initMap() {
                 ["den", "sea"],
                 ["den", "ord"],
                 ["den", "okc"],
+                ["den", "iah"],
+                ["den", "fll"],
+                ["den", "mco"],
+                ["den", "mia"],
+                ["den", "lax"],
+                ["iah", "pbi"],
+                ["fll", "uio"],
+                ["iah", "gua"],
+                ["okc", "dfw"],
+                ["okc", "phx"],
+                ["phx", "sea"],
+                ["ord", "hpn"],
                 ["den", "kef"],
                 ["kef", "lgw"],
                 ["ord", "yyz"],
