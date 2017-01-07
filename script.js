@@ -27,6 +27,7 @@ airports.mia = { name: "Miami", coords: {lat: 25.7933, lng: -80.2905} };
 airports.fll = { name: "Fort Lauderdale", coords: {lat: 26.0725, lng: -80.1527} };
 airports.pbi = { name: "Palm Beach", coords: {lat: 26.6832, lng: -80.0956} };
 airports.mco = { name: "Orlando", coords: {lat: 28.42944, lng: -81.3088} };
+airports.phl = { name: "Philadelphia", coords: {lat: 39.8719, lng: -75.2411} };
 
 // canada
 airports.yyz = { name: "Toronto", coords: {lat: 43.6766, lng: -79.6305} };
@@ -305,6 +306,8 @@ function initMap() {
                 ["den", "mia"],
                 ["den", "lax"],
                 ["den", "ewr"],
+                ["den", "phl"],
+                ["phl", "muc"],
                 ["ewr", "mxp"],
                 ["txl", "ewr"],
                 ["iah", "pbi"],
