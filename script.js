@@ -35,6 +35,8 @@ airports.ama = { name: "Amarillo", coords: {lat: 35.2194, lng: -101.7058} };
 airports.dal = { name: "Dallas Love", coords: {lat: 32.8472, lng: -96.8516} };
 airports.mke = { name: "Milwaukee", coords: {lat: 42.9472, lng: -87.8966} };
 airports.msn = { name: "Dane County", coords: {lat: 43.1397, lng: -89.3375} };
+airports.mem = { name: "Memphis", coords: {lat: 35.0425, lng: -89.9766} };
+airports.cle = { name: "Cleveland", coords: {lat: 41.4116, lng: -81.8497} };
 
 // canada
 airports.yyz = { name: "Toronto", coords: {lat: 43.6766, lng: -79.6305} };
@@ -326,10 +328,14 @@ function initMap() {
                 ["ewr", "mxp"],
                 ["txl", "ewr"],
                 ["iah", "pbi"],
+                ["den", "mem"],
+                ["mem", "cle"],
                 ["fll", "uio"],
                 ["iah", "gua"],
                 ["okc", "dfw"],
                 ["okc", "phx"],
+                ["okc", "ord"],
+                ["okc", "iah"],
                 ["phx", "sea"],
                 ["ord", "hpn"],
                 ["den", "kef"],
