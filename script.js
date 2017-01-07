@@ -37,6 +37,7 @@ airports.mke = { name: "Milwaukee", coords: {lat: 42.9472, lng: -87.8966} };
 airports.msn = { name: "Dane County", coords: {lat: 43.1397, lng: -89.3375} };
 airports.mem = { name: "Memphis", coords: {lat: 35.0425, lng: -89.9766} };
 airports.cle = { name: "Cleveland", coords: {lat: 41.4116, lng: -81.8497} };
+airports.las = { name: "Las Vegas", coords: {lat: 36.0800, lng: -115.1522} };
 
 // canada
 airports.yyz = { name: "Toronto", coords: {lat: 43.6766, lng: -79.6305} };
@@ -320,10 +321,13 @@ function initMap() {
                 ["ama", "dal"],
                 ["den", "mia"],
                 ["den", "lax"],
+                ["den", "las"],
+                ["las", "san"],
                 ["den", "phx"],
                 ["den", "eug"],
                 ["den", "ewr"],
                 ["den", "phl"],
+                ["dfw", "pbi"],
                 ["phl", "muc"],
                 ["ewr", "mxp"],
                 ["txl", "ewr"],
